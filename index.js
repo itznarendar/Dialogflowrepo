@@ -14,6 +14,7 @@ restService.use(
 restService.use(bodyParser.json());
 
 restService.post("/echo", function(req, res) {
+  return "sucess bai"
   var temp = {
     google: {
       expectUserResponse: true,
